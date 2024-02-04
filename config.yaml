@@ -16,4 +16,39 @@ params:
               limit: 10
     page:
         - type: toc
-      
+
+  sidebar:
+    emoji: 👻
+    subtitle: "6 feet tall, likes writing code, doesn't like Windows"
+    avatar:
+      enabled: true
+      local: true
+      src: images/pfp.jpeg
+
+    colorScheme:
+        # Display toggle
+        toggle: false
+
+        # Available values: auto, light, dark
+        default: dark
+
+menu:
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/yetimeh
+      params:
+          icon: brand-github
+
+    - identifier: instagram
+      name: Instagram
+      url: https://instagram.com/im.not.yeti
+      params:
+          icon: brand-instagram
+
+    - identifier: discord
+      name: Discord
+      url: https://discordapp.com/users/652407551849267200
+      params:
+        icon: brand-discord
+  

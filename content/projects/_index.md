@@ -1,10 +1,10 @@
 ---
-menu:
-    main:
-        name: Projects
+# menu:
+#     main:
+#         name: Projects
 
-        params:
-            icon: 'home'
-layout: 'projects'
+#         params:
+#             icon: 'folder-star'
+# layout: 'projects'
 
 ---
