@@ -2,4 +2,4 @@
 title: test
 ---
 
-Hello world lol
+Hello world lols
