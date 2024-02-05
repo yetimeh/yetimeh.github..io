@@ -1,3 +1,6 @@
 [submodule "themes/hugo-theme-stack"]
 	path = themes/hugo-theme-stack
 	url = https://github.com/CaiJimmy/hugo-theme-stack
+[submodule "themes/hugo-shortcode-roneo-button-icon-badge"]
+	path = themes/hugo-shortcode-roneo-button-icon-badge
+	url = https://gitlab.com/roneo.org/hugo-shortcode-roneo-button-icon-badge.git

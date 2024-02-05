@@ -45,6 +45,8 @@
         }, delta);
     };
 
+    
+
     window.onload = function() {
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
@@ -54,10 +56,17 @@
                 "Hey I'm Yeti!",
                 "I am a self taught developer.",
                 "I Love Design.",
-                "I Love to Develop."
+                "I Love to Develop.",
+                "I love writing code.",
+                "Cats for life 🐈",
+                "Professional procrastinator."
 
             ]
 
+            
+            const colorSchemeItem = localStorage.getItem('StackColorSchem');
+
+            
             var period = elements[i].getAttribute('data-period');
             if (toRotate) {
               new TxtType(elements[i], toRotate, period);
@@ -198,14 +207,16 @@ body {
 </style>
 
 
+
+
 <div style="display: flex; justify-content: center;" width="100%">
     <!-- ↓ The original div -->
     <div>
-        <h1 style="color: white">
-            <div href="" class="typewrite" data-period="2000" data-type="">
+        <h1 class="text" style="color: white ">
+            <div href="" class="typewrite" data-period="2000" data-type="" >
               <span class="wrap"></span>
             </div>
-          </h1>
+        </h1>
 
     </div>
 
@@ -235,7 +246,21 @@ body {
 
   </style>
 
-<div  style="display: flex; justify-content: center;" width="100%">
+  <style>
+    @media (prefers-color-scheme: dark) {
+  
+  
+      .typewrite {
+        color: #c7a3a3;
+      }
+
+    }
+    
+  
+  
+  </style>
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap;" width="100%">
 
     <a href="/projects">
         <button class="glow-on-hover" type="button" href="/projects">See my projects</button>
@@ -284,11 +309,30 @@ body {
   <style>
     
 
-a {
-    margin: 3%;
+    a {
+        margin: 3%;
 
-}
+    }
 
+    @media (max-width: 768px) {
+    /* Override styles for smaller screens */
+    .glow-on-hover {
+            /* Change styles for mobile view */
+            width: 100%; /* Make the divs take up the full width */
+            margin: 0; /* Adjust margin as needed */
+            /* Add any other styles for mobile view */
+          }
+
+    .a {
+      margin: 0;
+      padding: 0;
+    }
+
+
+
+
+    }
+      
 .glow-on-hover {
     width: 220px;
     height: 50px;
@@ -303,6 +347,8 @@ a {
     margin: 3%;
    
 }
+
+
 
 .glow-on-hover:before {
     content: '';

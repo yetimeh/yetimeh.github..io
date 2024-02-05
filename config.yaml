@@ -1,7 +1,17 @@
-theme: 'hugo-theme-stack'
+theme: 
+  - 'hugo-shortcode-roneo-button-icon-badge'
+  - 'hugo-theme-stack'
+
 baseURL: 'https://yetimeh.github.io/'
 
+permalinks:
+  post: "/p/:slug/"
+  page: "/:slug/"
+
+
+
 params:
+ 
   widgets:
     homepage:
         - type: search
@@ -25,12 +35,12 @@ params:
       local: true
       src: images/pfp.jpeg
 
-    colorScheme:
-        # Display toggle
-        toggle: false
+  colorScheme:
+      # Display toggle
+      toggle: true
 
-        # Available values: auto, light, dark
-        default: dark
+      # Available values: auto, light, dark
+      default: dark
 
 menu:
   social:

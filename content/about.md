@@ -2,6 +2,7 @@
 toc: false
 menu:
     main:
+        weight: 1
         name: About me
 
         params:
@@ -33,10 +34,12 @@ I'm also a huge music person. My most frequent genres are rock, metal, rap, hip 
 {{< figure src="https://lanyard-profile-readme.vercel.app/api/652407551849267200#floatleft" link="https://discordapp.com/users/652407551849267200">}}
 
 
-{{< audio type="spotify" id="7LMvwcBObTDW6h05HXG0S2" >}}
+{{< audio type="spotify" id="7LMvwcBObTDW6h05HXG0S2" >}} 
 
 
 `Random song I like :)`
+
+{{< github-button button="follow" user="yetimeh" repo="scroll" count="true" large="true" dark="true" text="👤 Follow me on github">}} {{< github-button button="sponsor" user="yetimeh" repo="scroll" count="true" large="true" dark="true" text="💗 Sponsor me">}}
 
 &ensp;
 
