@@ -21,7 +21,7 @@ links:
 
   - title: Discord
     description: "Add me up on Discord username: yeti_loves_u" 
-    website: https://www.typescriptlang.org
+    website: https://discordapp.com/users/652407551849267200
     image: https://www.cdnlogo.com/logos/d/43/discord.svg
 
   - title: Instagram
